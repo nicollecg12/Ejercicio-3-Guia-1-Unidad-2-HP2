@@ -45,7 +45,7 @@ namespace Ejercicio_3_Guia_1_Unidad_2_HP2
                 Cursos nuevoCurso = CursosFactory.CrearCurso(tipo, numeroEstudiantes, nombreCurso, nombreDocente, duracionCurso, precio);
                 //Singleton ---> GestorCursos.Instancia.Añadir();
                 GestorCursos.Instancia.AñadirCurso(nuevoCurso);
-                lstCursos.Items.Add(nuevoCurso);
+                
                 ReiniciaForms();
             }
             catch (Exception error)

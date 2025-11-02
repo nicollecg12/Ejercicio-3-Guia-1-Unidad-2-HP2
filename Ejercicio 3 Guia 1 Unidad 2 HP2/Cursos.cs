@@ -40,10 +40,7 @@ namespace Ejercicio_3_Guia_1_Unidad_2_HP2
      
         public abstract double CalcularPrecio();
 
-        public override string ToString()
-        {
-            return $"Nombre: {NombreCurso} Estudiantes: {NumeroEstudiantes} Duracion: {DuracionCurso} Precio: {CalcularPrecio()}";
-        }
+     
 
     }
 }
